@@ -36,4 +36,4 @@ function encriptar(){
     } 
       
     function copiar(){ var copyText = document.getElementById("msg"); copyText.select(); 
- document.getElementById("msg").value=" "; }
+    document.execCommand("Copy"); document.getElementById("msg").value=" "; }
